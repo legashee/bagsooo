@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Кровати</title>
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+        <meta charset="utf-8">
+        <link rel= "stylesheet" type="text/css" href="add.css">
+        <link rel= "stylesheet" type="text/css" href="add2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="slick/slick.css">
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="stylesheet" href="slick/slick-theme.css">
+        <script ENGINE="text/javascript" src= "https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="dist/css/lightbox.css">
+    </head>
+    <body>
+        <div class = 'header'>
+            <nav class = 'navig' >
+                <a class = 'nav' href = 'krovati.html' >Кровати</a>
+                <a class = 'nav' href = 'divani.html' >Диваны</a>
+                <a class = 'nav' href = 'kresla.html' >Кресла</a>
+                <a class = 'nav' href = 'adresa.html' >Адреса</a>
+                <a class = 'nav' href = 'otzivi.html' >Отзывы</a>
+            </nav>
+            <div class="section">
+                <a href="#" class="menu-btn">
+                    <span></span>
+                </a>
+            </div>   
+        <div class = 'photohead'>
+            <a href="index.html"><img src ="img/bagso.png" width="148px" ></a>
+        </div>
+        <!--Навигация сайта-->
+        <div class = 'links'>
+            <!--Инстаграмм-->
+            <a  class = 'site_links' href = 'https://www.instagram.com/bagso_mebel/'  title = 'Переход в Instagram'
+            target="_blank" >Inst:@bagso_mebel</a>
+            <!--Номер телефона-->
+            <a class = 'site_links' title="Номер телефона" href="tel:+79995477376">+7 (999)-547-73-76</a>
+        </div>        
+        </div>
+    <div class="burger-menu">
+        <li><a class = 'navburg' href = 'krovati.html'>Кровати</a></li>
+        <li><a class = 'navburg' href = 'divani.html' >Диваны</a></li>
+        <li><a class = 'navburg' href = 'kresla.html' >Кресла</a></li>
+        <li><a class = 'navburg' href = 'adresa.html' >Адреса</a></li>
+        <li><a class = 'navburg' href = 'otzivi.html' >Отзывы</a></li>
+    </div>
+        <br>
+        <div class = 'servismens'>
+            <a class = 'nav_razdel' href = 'krovati.html' >Кровати</a>
+            <a class = 'nav_razdel' href = 'matrasi.html' >Матрасы</a>
+        </div>
+        <br>
+    <!-- Кровати -->
+    
+    <div class = 'mebel_block'>
+        <div class = 'slider'>
+            <div class= 'slide'>
+            <a  href="photos/krovati/r1.png" data-lightbox="test"> <img src="photos/krovati/r1.png" ></a>
+            </div>
+            <div class= 'slide'>
+                <a  href="photos/krovati/r2.png" data-lightbox="test"> <img src="photos/krovati/r2.png" ></a>
+            </div>
+            <div class= 'slide'>
+                <a  href="photos/krovati/r3.png" data-lightbox="test"> <img src="photos/krovati/r3.png" ></a>
+            </div>
+            <div class= 'slide'>
+                <a  href="photos/krovati/r4.png" data-lightbox="test"> <img src="photos/krovati/r4.png" ></a>
+            </div>
+        </div>
+        <div class="description"> 
+            <h1 class= 'object_text'>Кровать "Рафик молодой"</h1>
+            <p class= 'info_text'>Подъёмная кровать Garda</p>
+            <p class="infotexthidden">Кровать с подъёмным механизмом Garda станет удачным приобретением для всех, кто ценит элегантность и комфорт. 
+                Модель в обивке из рогожки, со слегка скругленными углами, высокой мягкой спинкой изголовья, 
+                декорированной вертикальной строчкой, не только украсит интерьер спальни, но и позволит хорошо выспаться, а
+                перед сном понежиться за чтением книги или просмотром кинофильма. Под спальным местом расположены вместительные ящики для белья,
+                доступ к ним обеспечивает надежный подъемный механизм. Красивые деревянные ножки приподнимают кровать над полом, оставляя доступ и швабре, и роботу-пылесосу.
+            </p>
+            <a href="#" class="openbutton">Показать полностью</a>
+        </div>
+            <div class="button">
+                <a  href = '#'id = 'open_pop_up'>от 25 000</a>
+                <p class = 'text_pod'>*Оставить заявку</p>
+            </div>
+            <div class="pop_up" id="pop_up">
+                <div class="pop_up_container">
+                    <div class="pop_up_body" id="pop_up_body" action="form-lesson/mail.php" method="POST">
+                        <p>Оставьте заявку</br> и наш сотрудник вам перезвонит</p>
+                        <form >
+                            <input type="text" placeholder="Имя"  name = 'user_name'>
+                            <input type="text" placeholder="Телефон"  name = 'user_phone'>
+                            <button type="submit">Оставить заказ</button>
+                        </form>
+                        <div class="pop_up_close" id="pop_up_close">&#10006</div>
+                    </div>
+                </div>
+            </div>
+            
+    </div>
+    <!--Вторая часть блока -->
+    <br>
+    <div class = 'mebel_block'>
+        <div class = 'slider'>
+            <div class= 'slide'>
+                <a  href="photos/krovati/s1.png" data-lightbox="test"><img src="photos/krovati/s1.png" ></a>
+            </div>
+            <div class= 'slide'>
+                <a  href="photos/krovati/s2.png" data-lightbox="test"><img src="photos/krovati/s2.png"></a>
+            </div >
+            <div class= 'slide'>
+                <a  href="photos/krovati/s3.png" data-lightbox="test"><img src="photos/krovati/s3.png" ></a>
+            </div>
+        </div>
+        <div class="description"> 
+            <h1 class= 'object_text'>Кровать "От винта"</h1>
+            <p class= 'info_text2'>Подъёмная кровать Garda</p>
+            <p class="infotexthidden2">Кровать с подъёмным механизмом Garda станет удачным приобретением для всех, кто ценит элегантность и комфорт. 
+                Модель в обивке из рогожки, со слегка скругленными углами, высокой мягкой спинкой изголовья, 
+                декорированной вертикальной строчкой, не только украсит интерьер спальни, но и позволит хорошо выспаться, а
+                перед сном понежиться за чтением книги или просмотром кинофильма. Под спальным местом расположены вместительные ящики для белья,
+                доступ к ним обеспечивает надежный подъемный механизм. Красивые деревянные ножки приподнимают кровать над полом, оставляя доступ и швабре, и роботу-пылесосу.
+            </p>
+            <a href="#" class="openbutton2">Показать полностью</a>
+        </div>
+            <div class="button">
+                <a  href = '#' id = 'open_pop_up_second'>от $$$</a>
+                <p class = 'text_pod'>*Оставить заявку</p>
+            </div>
+            <div class="pop_up" id="pop_up_second">
+                <div class="pop_up_container">
+                    <div class="pop_up_body" id="pop_up_body">
+                        <p>Оставьте заявку</br> и наш сотрудник вам перезвонит</p>
+                        <form action="">
+                            <input type="text" placeholder="Имя">
+                            <input type="text" placeholder="Телефон">
+                            <button>Оставить заказ</button>
+                        </form>
+                        <div class="pop_up_close" id="pop_up_close_second">&#10006</div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+
+    <!--footer-->
+    <div class="down_text" border = '3px'>
+        <div class="down_text_blockdisplay">
+            <div class="footerlinksblock">
+                <br><br><a href="https://www.instagram.com/bagso_mebel/" target="_blank"><img class="" src="img/instagram.png"></a>
+                <a href="tel:+79995477376" ><img src="img/whatspp.png"></a>
+                <a href="tel:+73452595016"><img src ="img/vibibier.png" width="148px" ></a>
+            </div>
+            <div class = 'logodown'>
+                <a href="index.html"><img src ="img/bagso.png" width="148px" ></a>
+                <a href="adresa.html"><p style="margin-top: 10px;">МЦ Новый Магнат 30 лет Победы, 7/5 28 павильон; 1 этаж; <br>ТЦ Мебель-Ковры Молодёжная, 80 строение 4; 1 этаж</p></a>
+            </div>
+            <div class='footer3rd'>
+                <br><br><a href="mailto:r.chom@yandex.ru" style="text-decoration: none;">r.chom@yandex.ru</a>
+            </div>
+        </div>
+    </div>
+    
+    <script src= 'slick/slick.min.js'></script>
+    <script src = 'script.js'></script>
+    <script src= 'main.js' ></script>
+    <script src = 'dist/js/lightbox-plus-jquery.js'></script>
+    <script src ='texthider.js'></script>
+
+</body>
+</html>

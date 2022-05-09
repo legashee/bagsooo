@@ -1,0 +1,584 @@
+body {
+  margin: 0 auto;
+  font-family: "Jost", sans-serif;
+  background: url(img/bckgrnd.png) center;
+  background-color: #262626;
+}
+
+/*ГОЛОВА САЙТА*/
+.header {
+  width: 100%;
+  height: 120px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  border-color: white;
+  justify-content: space-between;
+}
+
+.photohead img {
+  display: block;
+  position: flex;
+  width: 148px;
+}
+
+.vkcommentz {
+  margin-top: 50px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.navig {
+  width: 600px;
+  height: 37px;
+  align-items: center;
+  float: left;
+  padding: 15px 0;
+  position: absolute;
+  margin-left: 15px;
+}
+
+.nav {
+  font-size: 24px;
+  color: white;
+  vertical-align: top;
+  display: inline-block;
+  margin: 0px 15px;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+
+  background-color: gray;
+
+  position: absolute;
+
+  top: 100%;
+  z-index: 1;
+  left: 0;
+
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+
+.nav:hover {
+  color: gray;
+}
+
+.nav:hover:after {
+  opacity: 1;
+}
+
+.style img:hover {
+  transform: scale(1.1);
+}
+
+.links {
+  color: white;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  text-align: right;
+
+  display: block;
+}
+
+.forp  {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.site_links {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  display: block;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+/*Основа сайта*/
+
+.mebel_block {
+  text-align: center;
+}
+
+.conteinermat {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.insidecont img:hover {
+  transform: scale(1.1);
+}
+.insidecont img {
+  transition: 0.5s;
+}
+
+.insidecont p {
+  color: white;
+  text-align: center;
+  font-size: 27px;
+}
+
+/*Матрасы*/
+.matras {
+  margin: 0 55px;
+}
+
+.matras-inside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.images {
+  text-align: center;
+}
+
+.images img {
+  width: 450px;
+  height: 300px;
+}
+
+.matras-inside-first {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 820px;
+  max-height: 700px;
+
+  margin: 15px 15px;
+  padding: 5px 10px;
+}
+
+.matras-inside-info {
+  text-align: center;
+}
+
+.matras-inside-info h1 {
+  color: white;
+  margin: 0 auto;
+}
+
+.matras-inside-info p {
+  color: #fff;
+  font-size: 25px;
+}
+
+.matras-inside-button {
+  background-color: #fff;
+  border: none;
+  border-radius: 10em;
+
+  width: 150px;
+  height: 55px;
+}
+
+.matras-inside-button p {
+  color: #000;
+  margin: 0 auto;
+}
+
+/* концец Матрасов*/
+
+.insidecont img {
+  width: 450px;
+  padding: 15px;
+}
+
+.matras_block {
+  color: white;
+  font-size: 12px;
+  margin: 15px;
+  text-align: center;
+  width: 450px;
+}
+
+.adresatext {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.text_pod {
+  color: silver;
+  margin-bottom: 5px;
+}
+
+.slide img {
+  width: 450px;
+  border-radius: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider {
+  margin: 0 auto;
+  max-width: 80%;
+  display: center;
+}
+
+.object_text {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.button_matras {
+  margin: 0 auto;
+  color: #fff;
+  border-radius: 10em;
+  text-decoration: none;
+  text-align: center;
+  background-color: #fff;
+
+  width: 150px;
+  height: 35px;
+
+  display: block;
+  text-align: center;
+}
+
+.button_matras a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.adresatext p {
+  margin-top: 12px;
+  font-size: 30px;
+  height: 30px;
+}
+
+.button:after {
+  content: "";
+  display: block;
+  width: 700px;
+  height: 3px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.button_high:after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 3px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+.logodown a{
+  text-decoration: none;
+}
+.button_text {
+  display: inline-block;
+  vertical-align: top;
+  padding: 8px 30px;
+
+  border: 2px solid white;
+  background-color: white;
+  color: black;
+
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+
+  margin-top: 15px;
+  border-radius: 10em;
+}
+
+.button {
+  align-items: center;
+  margin: 0 auto;
+}
+
+.burger-menu {
+  display: none;
+  background-color: black;
+  size: 500%;
+  align-items: center;
+  float: left;
+  padding: 15px 0;
+  text-align: center;
+  width: 100%;
+  height: 450px;
+  position: absolute;
+  z-index: 2;
+  animation-duration: 0.5s;
+  animation-name: slidein;
+}
+
+.burger-menu li {
+  animation-duration: 0.5s;
+  animation-name: slideintext;
+}
+.burger-menu div {
+  animation-duration: 0.5s;
+  animation-name: slideintext;
+}
+
+@keyframes slidein {
+  from {
+    height: 120px;
+  }
+  to {
+    height: 450px;
+  }
+}
+@keyframes slideintext {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 86.3px;
+  }
+}
+
+.navburg {
+  font-size: 60px;
+  color: white;
+  vertical-align: top;
+  margin: 0px 15px;
+  text-decoration: none;
+  position: relative;
+  z-index: 40;
+  background-color: black;
+}
+
+.section {
+  width: 163.35px;
+  margin-left: 20px;
+}
+
+.servismens {
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+  align-items: center;
+  padding: 15px 2;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav_razdel {
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+  margin: -10px 30px;
+  margin-left: 15px;
+  text-decoration: none;
+  position: relative;
+  background-color: white;
+  border-radius: 10em;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*Нижняя часть информации*/
+
+.text_comp {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.menu-btn {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  display: none;
+  position: relative;
+}
+.activebrg {
+  display: block;
+}
+
+.menu-btn span,
+.menu-btn span::before,
+.menu-btn span::after {
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  left: 50%;
+  margin-left: -10px;
+  width: 20px;
+  height: 2px;
+  background-color: black;
+}
+.menu-btn span::before,
+.menu-btn span::after {
+  content: "";
+  display: block;
+  transition: 0.2s;
+}
+.menu-btn span::before {
+  transform: translateY(-5px);
+}
+.menu-btn span::after {
+  transform: translateY(5px);
+}
+.activebtn span {
+  height: 0;
+}
+.activebtn span::before {
+  transform: rotate(45deg);
+}
+.activebtn span::after {
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 1200px) {
+  .menu-btn {
+    display: flex;
+    width: 80px;
+    height: 80px;
+  }
+  .navig a {
+    display: none;
+  }
+  .navig {
+    width: 10px;
+  }
+  .text_pod {
+    font-size: 13px;
+  }
+  .header {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    border-color: white;
+    justify-content: space-between;
+  }
+
+  .nav_razdel {
+    font-size: 50px;
+  }
+
+  .photohead img {
+    display: block;
+    position: flex;
+    width: 198px;
+  }
+
+  .slider {
+    margin: 0 auto;
+    max-width: 80%;
+    display: center;
+  }
+
+  .site_links {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  .map iframe {
+    text-align: center;
+    width: 90%;
+    height: 900px;
+    border: 0;
+  }
+  .mapblock {
+    margin-top:100px;
+  }
+  .adresatext p {
+    margin-top: 12px;
+    font-size: 45px;
+    height: 30px;
+  }
+  .adresatext h1 {
+    font-size: 28px;
+    margin: 15px;
+  }
+ 
+  .map p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+}
+
+@media screen and (max-width: 1600px) {
+  .matras-inside {
+    display: block;
+  }
+
+  .matras-inside-first {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .insidecont_second {
+    display: flex;
+    justify-content: center;
+  }
+
+  .images img {
+    width: 600px;
+    height: 400px;
+  }
+
+  .matras-inside-info h1 {
+    color: white;
+    margin: 0 auto;
+    font-size: 45px;
+  }
+
+  .matras-inside-info p {
+    color: #fff;
+    font-size: 35px;
+    margin: 15px auto;
+    text-align: center;
+  }
+
+  .matrasprimer {
+    position: relative;
+  }
+
+  .matras-inside-button p {
+    color: #000;
+    margin: 0 auto;
+  }
+  .vkcommentz {
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .text_pod {
+    color: silver;
+    margin-bottom: 10px;
+
+    font-size: 14px;
+  }
+
+
+ 
+}
